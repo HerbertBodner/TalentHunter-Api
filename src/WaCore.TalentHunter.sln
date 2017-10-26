@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WaCore.TalentHunter.Api", "WaCore.TalentHunter.Api\WaCore.TalentHunter.Api.csproj", "{469937BC-5E61-4B52-A181-D4D0D406A8AA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WaCore.TalentHunter.Data", "WaCore.TalentHunter.Data\WaCore.TalentHunter.Data.csproj", "{D83D7687-1011-46C2-808F-A8168C0EB1E8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WaCore.TalentHunter.Dtos", "WaCore.TalentHunter.Dtos\WaCore.TalentHunter.Dtos.csproj", "{FBE0B382-E6E7-4407-BAEF-7DCF1E3EC2AF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WaCore.TalentHunter.DomainEntities", "WaCore.TalentHunter.DomainEntities\WaCore.TalentHunter.DomainEntities.csproj", "{DBF21B53-87F8-4E46-BB9A-7D3A667A7344}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WaCore.TalentHunter.Services", "WaCore.TalentHunter.Services\WaCore.TalentHunter.Services.csproj", "{6B194531-0D13-497B-A4C5-60AE49448DCF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{469937BC-5E61-4B52-A181-D4D0D406A8AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{469937BC-5E61-4B52-A181-D4D0D406A8AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{469937BC-5E61-4B52-A181-D4D0D406A8AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{469937BC-5E61-4B52-A181-D4D0D406A8AA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D83D7687-1011-46C2-808F-A8168C0EB1E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D83D7687-1011-46C2-808F-A8168C0EB1E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D83D7687-1011-46C2-808F-A8168C0EB1E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D83D7687-1011-46C2-808F-A8168C0EB1E8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FBE0B382-E6E7-4407-BAEF-7DCF1E3EC2AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FBE0B382-E6E7-4407-BAEF-7DCF1E3EC2AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FBE0B382-E6E7-4407-BAEF-7DCF1E3EC2AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FBE0B382-E6E7-4407-BAEF-7DCF1E3EC2AF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DBF21B53-87F8-4E46-BB9A-7D3A667A7344}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DBF21B53-87F8-4E46-BB9A-7D3A667A7344}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DBF21B53-87F8-4E46-BB9A-7D3A667A7344}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DBF21B53-87F8-4E46-BB9A-7D3A667A7344}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6B194531-0D13-497B-A4C5-60AE49448DCF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B194531-0D13-497B-A4C5-60AE49448DCF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6B194531-0D13-497B-A4C5-60AE49448DCF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6B194531-0D13-497B-A4C5-60AE49448DCF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {04253685-E193-4D5C-8A62-42E1285273E7}
+	EndGlobalSection
+EndGlobal
