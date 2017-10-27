@@ -5,7 +5,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\WaCore.TalentHunter.Utils\WaCore.TalentHunter.Utils.csproj" />
+    <Folder Include="Extensions\" />
   </ItemGroup>
 
 </Project>

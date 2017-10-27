@@ -4,4 +4,12 @@
     <TargetFramework>netcoreapp2.0</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Folder Include="Entities\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\WaCore.TalentHunter.Utils\WaCore.TalentHunter.Utils.csproj" />
+  </ItemGroup>
+
 </Project>

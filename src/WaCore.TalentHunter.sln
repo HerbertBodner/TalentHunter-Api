@@ -7,11 +7,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WaCore.TalentHunter.Api", "
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WaCore.TalentHunter.Data", "WaCore.TalentHunter.Data\WaCore.TalentHunter.Data.csproj", "{D83D7687-1011-46C2-808F-A8168C0EB1E8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WaCore.TalentHunter.Dtos", "WaCore.TalentHunter.Dtos\WaCore.TalentHunter.Dtos.csproj", "{FBE0B382-E6E7-4407-BAEF-7DCF1E3EC2AF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WaCore.TalentHunter.Dtos", "WaCore.TalentHunter.Dtos\WaCore.TalentHunter.Dtos.csproj", "{FBE0B382-E6E7-4407-BAEF-7DCF1E3EC2AF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WaCore.TalentHunter.DomainEntities", "WaCore.TalentHunter.DomainEntities\WaCore.TalentHunter.DomainEntities.csproj", "{DBF21B53-87F8-4E46-BB9A-7D3A667A7344}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WaCore.TalentHunter.DomainEntities", "WaCore.TalentHunter.DomainEntities\WaCore.TalentHunter.DomainEntities.csproj", "{DBF21B53-87F8-4E46-BB9A-7D3A667A7344}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WaCore.TalentHunter.Services", "WaCore.TalentHunter.Services\WaCore.TalentHunter.Services.csproj", "{6B194531-0D13-497B-A4C5-60AE49448DCF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WaCore.TalentHunter.Utils", "WaCore.TalentHunter.Utils\WaCore.TalentHunter.Utils.csproj", "{FC5C7925-0D98-46D7-8713-71BBC4080715}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{6B194531-0D13-497B-A4C5-60AE49448DCF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6B194531-0D13-497B-A4C5-60AE49448DCF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6B194531-0D13-497B-A4C5-60AE49448DCF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FC5C7925-0D98-46D7-8713-71BBC4080715}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC5C7925-0D98-46D7-8713-71BBC4080715}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC5C7925-0D98-46D7-8713-71BBC4080715}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC5C7925-0D98-46D7-8713-71BBC4080715}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

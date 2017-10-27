@@ -10,6 +10,7 @@
 
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.All" Version="2.0.0" />
+    <PackageReference Include="NSwag.AspNetCore" Version="11.11.1" />
   </ItemGroup>
 
   <ItemGroup>
@@ -18,6 +19,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\WaCore.TalentHunter.Dtos\WaCore.TalentHunter.Dtos.csproj" />
+    <ProjectReference Include="..\WaCore.TalentHunter.Utils\WaCore.TalentHunter.Utils.csproj" />
   </ItemGroup>
 
 </Project>
