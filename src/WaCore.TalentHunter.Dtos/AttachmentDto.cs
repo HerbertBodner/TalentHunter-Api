@@ -4,7 +4,7 @@ using System.Text;
 
 namespace WaCore.TalentHunter.Dtos
 {
-    public class AttachementDto
+    public class AttachmentDto
     {
         public int Id { get; set; }
         public string FileName { get; set; }

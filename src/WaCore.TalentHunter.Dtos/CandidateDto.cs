@@ -12,6 +12,6 @@ namespace WaCore.TalentHunter.Dtos
         public string LastName { get; set; }
         public DateTime Birthday { get; set; }
         public AssessmentCategoryEnum AssessmentCategory { get; set; }
-        public List<AttachementDto> AttachementList { get; set; }
+        public List<AttachmentDto> Attachments { get; set; }
     }
 }

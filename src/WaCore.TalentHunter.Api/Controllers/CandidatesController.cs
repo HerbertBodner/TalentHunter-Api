@@ -21,8 +21,8 @@ namespace WaCore.TalentHunter.Api.Controllers
                     LastName = "Mustermann",
                     Birthday = new DateTime(1974, 1,23),
                     AssessmentCategory = AssessmentCategoryEnum.PARTIALLY_MEETS_HIRING_STANDARDS,
-                    AttachementList = new List<AttachementDto>() {
-                        new AttachementDto {
+                    Attachments = new List<AttachmentDto>() {
+                        new AttachmentDto {
                             FileName = "CV.pdf",
                             Path = "/assets/CV_Max_Mustermann.pdf",
                             PreviewImagePath = "/assets/CV_Max_Mustermann.png"
@@ -34,13 +34,13 @@ namespace WaCore.TalentHunter.Api.Controllers
                     FirstName = "John",
                     LastName = "Doe",
                     Birthday = new DateTime(1992, 12, 3),
-                    AssessmentCategory = AssessmentCategoryEnum.IDEALLY_MEETS_HIRING_STANDARDS, 
-                    AttachementList = new List<AttachementDto>() {
-                        new AttachementDto {
+                    AssessmentCategory = AssessmentCategoryEnum.IDEALLY_MEETS_HIRING_STANDARDS,
+                    Attachments = new List<AttachmentDto>() {
+                        new AttachmentDto {
                             FileName = "Lebenslauf.pdf",
                             Path = "/assets/CV_John_Doe.pdf",
                             PreviewImagePath = "/assets/CV_John_Doe.jpg"},
-                        new AttachementDto {
+                        new AttachmentDto {
                             FileName = "Certificate.pdf",
                             Path = "/assets/CV_John_Doe_certificate.pdf",
                             PreviewImagePath = "/assets/CV_John_Doe_certificate.gif"}
