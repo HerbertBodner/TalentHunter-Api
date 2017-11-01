@@ -23,5 +23,5 @@ Push-Location .\src
     dotnet publish -c release .\$solution_name -o $publish_path
 
     # specify build path from dockerfile point-of-view (not from docker-compose.yml point-of-view)
-    docker-compose build --build-arg "source=$publish_path" wacore.talenthunter.api
+    docker-compose build --build-arg "source=$publish_path" "wacore.talenthunter.api"
 Pop-Location
