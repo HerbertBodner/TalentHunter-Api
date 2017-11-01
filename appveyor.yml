@@ -1,0 +1,21 @@
+version: 1.0.{build}
+image: Visual Studio 2017
+
+environment:
+  DOCKER_USER:
+    secure: dk51uz48LGEmvYMmD3Fygg==
+  DOCKER_PASS:
+    secure: 3eVMIsBLAepb3U5TfKWqXQ==
+
+build_script:
+  - ps: .\Build.ps1
+
+deploy_script:
+  - ps: |      
+        if ($env:APPVEYOR_REPO_TAG -eq "true")
+        {
+          docker tag herbertbodner/wacore.talenthunter.api herbertbodner/wacore.talenthunter.api:$env:APPVEYOR_REPO_TAG_NAME
+
+          docker login -u="$env:DOCKER_USER" -p="$env:DOCKER_PASS"
+          docker push herbertbodner/wacore.talenthunter.api:$env:APPVEYOR_REPO_TAG_NAME
+        }

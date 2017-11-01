@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  wacore.talenthunter.api:
+    image: herbertbodner/wacore.talenthunter.api
+    build:
+      context: ./WaCore.TalentHunter.Api
+      dockerfile: Dockerfile
