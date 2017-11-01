@@ -15,5 +15,5 @@ deploy_script:
         if ($env:APPVEYOR_REPO_TAG)
         {
           docker login -u="$env:DOCKER_USER" -p="$env:DOCKER_PASS"
-          docker push herbertbodner/wacore.talenthunter.api:$env:APPVEYOR_REPO_TAG_NAME
+          docker push herbertbodner/wacore.talenthunter.api
         }
