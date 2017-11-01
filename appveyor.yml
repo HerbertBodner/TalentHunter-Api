@@ -1,0 +1,17 @@
+version: 1.0.{build}
+image: Visual Studio 2017
+
+environment:
+  DOCKER_USER:
+    secure: dk51uz48LGEmvYMmD3Fygg==
+  DOCKER_PASS:
+    secure: 3eVMIsBLAepb3U5TfKWqXQ==
+#install:
+#  - docker version
+
+build_script:
+  - ps: .\Build.ps1
+    
+deploy_script:
+  - docker login -u="$env:DOCKER_USER" -p="$env:DOCKER_PASS"
+  - docker push herbertbodner/wacore.talenthunter.api
