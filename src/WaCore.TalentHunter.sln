@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.26730.12
+VisualStudioVersion = 15.0.27004.2005
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WaCore.TalentHunter.Api", "WaCore.TalentHunter.Api\WaCore.TalentHunter.Api.csproj", "{469937BC-5E61-4B52-A181-D4D0D406A8AA}"
 EndProject
@@ -13,7 +13,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WaCore.TalentHunter.DomainE
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WaCore.TalentHunter.Services", "WaCore.TalentHunter.Services\WaCore.TalentHunter.Services.csproj", "{6B194531-0D13-497B-A4C5-60AE49448DCF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WaCore.TalentHunter.Utils", "WaCore.TalentHunter.Utils\WaCore.TalentHunter.Utils.csproj", "{FC5C7925-0D98-46D7-8713-71BBC4080715}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WaCore.TalentHunter.Utils", "WaCore.TalentHunter.Utils\WaCore.TalentHunter.Utils.csproj", "{FC5C7925-0D98-46D7-8713-71BBC4080715}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{E183FBA7-D2BC-44DB-BB16-C18DC4267DC3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +47,10 @@ Global
 		{FC5C7925-0D98-46D7-8713-71BBC4080715}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FC5C7925-0D98-46D7-8713-71BBC4080715}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FC5C7925-0D98-46D7-8713-71BBC4080715}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E183FBA7-D2BC-44DB-BB16-C18DC4267DC3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E183FBA7-D2BC-44DB-BB16-C18DC4267DC3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E183FBA7-D2BC-44DB-BB16-C18DC4267DC3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E183FBA7-D2BC-44DB-BB16-C18DC4267DC3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
