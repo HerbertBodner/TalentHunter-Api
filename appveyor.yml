@@ -12,11 +12,16 @@ build_script:
 
 deploy_script:
   - ps: |
-        Push-Location .\src
+        echo "APPVEYOR_PULL_REQUEST_NUMBER: $env:APPVEYOR_PULL_REQUEST_NUMBER"
+        echo "APPVEYOR_REPO_BRANCH: $env:APPVEYOR_REPO_BRANCH"
+        echo "APPVEYOR_REPO_TAG: $env:APPVEYOR_REPO_TAG"
+        
           if (!$env:APPVEYOR_PULL_REQUEST_NUMBER -and (($env:APPVEYOR_REPO_BRANCH -eq "master") -and $env:APPVEYOR_REPO_TAG))
           {
-            # login and push to docker for tag build on master branch
-            docker login -u="$env:DOCKER_USER" -p="$env:DOCKER_PASS"
-            docker push herbertbodner/wacore.talenthunter.api:$env:APPVEYOR_REPO_TAG_NAME
+            Push-Location src
+              # login and push to docker for tag build on master branch
+              docker login -u="$env:DOCKER_USER" -p="$env:DOCKER_PASS"
+              docker push herbertbodner/wacore.talenthunter.api:$env:APPVEYOR_REPO_TAG_NAME
+            Pop-Location
           }
-        Pop-Location
+        
