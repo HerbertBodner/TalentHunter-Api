@@ -10,10 +10,11 @@ environment:
 build_script:
   - ps: .\Build.ps1
 
-deploy:  
-  on:
-    branch: master
-    appveyor_repo_tag: true   
 deploy_script:
-  - docker login -u="$env:DOCKER_USER" -p="$env:DOCKER_PASS"
-  - docker push herbertbodner/wacore.talenthunter.api
+  - ps: |
+        if (!$env:APPVEYOR_PULL_REQUEST_NUMBER -and ($env:APPVEYOR_REPO_BRANCH -eq "master") -and $env:APPVEYOR_REPO_TAG_NAME) 
+        {
+          # login and push to docker for tag build on master branch
+          docker login -u="$env:DOCKER_USER" -p="$env:DOCKER_PASS"
+          docker push herbertbodner/wacore.talenthunter.api
+        }
